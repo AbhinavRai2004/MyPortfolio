@@ -1,99 +1,51 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
-</p>
-
----
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
-
+# Portfolio Website
 ---
 
-# Developer Portfolio
+## Description
 
-### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
+Welcome to my personal portfolio website! As a passionate and aspiring full stack developer, this site showcases my skills and projects. It is designed to provide a comprehensive view of my journey, highlighting my enthusiasm for web application development. Explore my work and see how I am eager to learn, grow, and contribute to the tech industry.
 
 ---
-
-# Demo :movie_camera:
+## Demo :movie_camera:
 
 ![](./public/image/screen.png)
 
-## View live preview [here](https://abusaid.netlify.app/).
-
----
-
-## Table of Contents :scroll:
-
-- [Sections](#sections-bookmark)
-- [Demo](#demo-movie_camera)
-- [Installation](#installation-arrow_down)
-- [Getting Started](#getting-started-dart)
-- [Usage](#usage-joystick)
-- [Packages Used](#packages-used-package)
-
+### View live preview [here](https://abusaid.netlify.app/).
 ---
 
 # Sections :bookmark:
 
 - HERO SECTION
 - ABOUT ME
-- EXPERIENCE
 - SKILLS
 - PROJECTS
 - EDUCATION
-- BLOG
 - CONTACTS
 
 ---
 
-# Installation :arrow_down:
+## Setup Instructions
 
-### You will need to download Git and Node to run this project
-
-- [Git](https://git-scm.com/downloads)
-- [Node](https://nodejs.org/en/download/)
-
-#### Make sure you have the latest version of both Git and Node on your computer.
-
-```
-node --version
-git --version
-```
-
-## <br />
-
-# Getting Started :dart:
-
-### Fork and Clone the repo
-
-To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
-
-```
-git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
-
-cd developer-portfolio
-```
-
-### Install packages from the root directory
-
-```bash
-npm install
-# or
-yarn install
-```
-
-Then, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repository:
+    ```bash
+       https://github.com/AbhinavRai2004/MyPortfolio.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd MyPortfolio
+    ```
+3. If applicable, install dependencies:
+    ```bash
+    npm install
+    ```
+4. Start the development server:
+    ```bash
+    npm run dev
+    ```
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ---
-
-# Usage :joystick:
+## Usage
 
 Goto [emailjs.com](https://www.emailjs.com/) and create a new account for the mail sending. In free trial you will get 200 mail per month. After setup `emailjs` account, Please create a new `.env` file from `.env.example` file.
 
@@ -109,37 +61,30 @@ NEXT_PUBLIC_RECAPTCHA_SECRET_KEY = # For captcha verification on contact form
 NEXT_PUBLIC_RECAPTCHA_SITE_KEY =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+### Then, Customize data in the `utils/data` [folder].
 
 Eg:
 
 ```javascript
 export const personalData = {
-  name: "ABU SAID",
-  profile: "/profile.png",
-  designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "...",
-};
+  name: "Abhinav Rai",
+  profile: '/profile.png',
+  description: "My name is Abhinav Rai, and I am a dedicated and enthusiastic programmer. I am a quick learner with a strong self-learning attitude, always eager to explore and master new technologies. I have a passion for problem-solving and a deep interest in all aspects of web application development. My core skill lies in ReactJs, NodeJs, JavaScript, and I enjoy leveraging it to create open and accessible web solutions. I am open to any job opportunities that align with my skills and interests.",
+  email: 'raiabhinav.in@gmail.com',
+  phone: '+91-9335783068',
+  address: 'Assi, Varanasi, Uttar Pradesh, 221005',
+  github: 'https://github.com/AbhinavRai2004',
+  linkedIn: 'https://www.linkedin.com/in/abhinav2004',
+  twitter: 'https://twitter.com/AbhinavRai48039',
+  stackOverflow: 'https://stackoverflow.com/users/22012099/abhinav-rai',
+  leetcode: "https://leetcode.com/u/user400AB/",
+  resume: "https://drive.google.com/file/d/14FeRjlTgYUw7qeyxhf7X8zgPbC1Tf-Uz/view?usp=drive_link"
+}
 ```
-
-`devUsername` Used for fetching blog from `dev.to`.
-
 ---
 
----
 
-# Packages Used :package:
+## Packages Used :package:
 
 | Used Package List  |
 | :----------------: |
@@ -153,3 +98,7 @@ export const personalData = {
 |    tailwindcss     |
 
 ---
+## Contact
+
+Feel free to reach out to me via [email](mailto:raiabhinav.in@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/abhinav2004).
+

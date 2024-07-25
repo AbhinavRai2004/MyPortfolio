@@ -4,11 +4,10 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
-import { tailwind } from '/public/svg/skills/tailwind.svg';
 
 function HeroSection() {
   return (
@@ -26,10 +25,7 @@ function HeroSection() {
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
             This is {' '}
-            <span className=" text-pink-500">{personalData.name}</span>
-            {` , I'm a Professional `}
-            <span className=" text-[#16f2b3]">{personalData.designation}</span>
-            .
+            <span className=" text-pink-500">{personalData.name}</span>,
           </h1>
 
           <div className="my-12 flex items-center gap-5">
@@ -47,13 +43,6 @@ function HeroSection() {
             >
               <BsLinkedin size={30} />
             </Link>
-            {/* <Link
-              href={personalData.facebook}
-              target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
-            >
-              <FaFacebook size={30} /> */}
-            {/* </Link> */}
             <Link
               href={personalData.leetcode}
               target='_blank'
