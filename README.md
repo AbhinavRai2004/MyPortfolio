@@ -27,7 +27,7 @@ Welcome to my personal portfolio website! As a passionate and aspiring full stac
 
 1. Clone the repository:
     ```bash
-       https://github.com/AbhinavRai2004/MyPortfolio.git
+    https://github.com/AbhinavRai2004/MyPortfolio.git
     ```
 2. Navigate to the project directory:
     ```bash
