@@ -10,7 +10,6 @@ Welcome to my personal portfolio website! As a passionate and aspiring full stac
 
 ![](./public/image/screen.png)
 
-### View live preview [here](https://abusaid.netlify.app/).
 ---
 
 # Sections :bookmark:
