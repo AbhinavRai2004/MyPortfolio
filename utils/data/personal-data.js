@@ -9,6 +9,6 @@ export const personalData = {
   linkedIn: 'https://www.linkedin.com/in/abhinav2004',
   twitter: 'https://twitter.com/AbhinavRai48039',
   stackOverflow: 'https://stackoverflow.com/users/22012099/abhinav-rai',
-  leetcode: "https://leetcode.com/u/user400AB/",
-  resume: "https://drive.google.com/file/d/14FeRjlTgYUw7qeyxhf7X8zgPbC1Tf-Uz/view?usp=drive_link"
+  leetcode: "https://leetcode.com/u/raiAB24/",
+  resume: "https://drive.google.com/file/d/1zHfys7ZM2P7ilKrz7nTlXfL2cuDCPO_8/view?usp=sharing"
 }
